@@ -1,0 +1,61 @@
+header {
+    margin: 15px;
+}
+
+#header-logo {
+    width: 130px;
+    height: 130px;
+}
+
+#nav-bar li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    left: 80%;
+    bottom: 100px;
+}
+
+#nav-bar li:hover {
+    color: rgb(217, 186, 245);
+}
+/* SEPERATION */
+.illustration {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 55%;
+}
+
+#first-section #data-one {
+    margin-left: 100px;
+}
+
+.paragraph p,  .paragraph h2 , .paragraph img{
+    margin-left: 20px;
+}
+
+#email-input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #B2BEB5;
+}
+
+#get-started {
+    padding: 10px;
+    border: 1px solid rgb(8, 8, 210);;
+    border-radius: 5px;
+    background-color: rgb(8, 8, 210);
+    color: white;
+    font-weight: 900;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 56px;
+    left: 450px;
+}
+
+.how-it-works {
+    display: inline;
+}
