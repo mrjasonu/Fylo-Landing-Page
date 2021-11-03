@@ -1,73 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<html>
+  <head>
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" href="./style.css" >
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  </head>
+  <body>
+    <header>
+      <img id="header-logo" src="./images/logo.svg" />
+      <ul id="nav-bar">
+        <li>Features</li>
+        <li>Team</li>
+        <li>Sign in</li>
+      </ul>
+    </header>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <div id="first-section">
+      <table>
+        <tr>
+          <td>
+            <h2>All your files in one secure<br>location, accessible anywhere.</h2>
+            <p>Fylo stores your most important files in one secure location. Access<br>them wherever vou need, share and collaborate with friends. Tamily<br>and co-workers</p>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+            <p id="email-input">Enter your email...</p>
+            <p id="get-started">Get Started</p>
+          </td>
+          <td>
+            <img id="illustration-one" src="./images/illustration-1.svg" />
+          </td>
+        </tr>
+      </table>
+    </div>
 
-  Features
-  Team
-  Sign In
+    <div id="second-section">
+      <table>
+        <tr>
+          <td>
+            <h2>Stay productive, wherever you are</h2>
+            <p>Never let location be an issue when accessing vour files. Flo has Vou<br>covered for all of your file storage needs.<br><br>Securely share files and folders with friends, family and colleagues for<br>live collaboration. No email attachments required!</p>
+            <p id="flow-work">See how your Fylo works</p>
+            <img src="./images/icon-arrow.svg" />
+            <div id="quote-block">
+              <img id="quote-image" src="./images/icon-quotes.svg" />
+              <p>Flo has improved our team productivity by<br>an order of magnitude. Since making the<br>switch out team has become a well-oiled<br>collaboration machine.</p>
+            </div>
+          </td>
+          <td>
+            <img src="./images/illustration-2.svg" />
+          </td>
+        </tr>
+      </table>
+    </div>
 
-  All your files in one secure location, accessible anywhere.
+    <div id="third-section">
+      <table>
+        <tr>
+          <td>
+            <div>
+              <h2 class="white-text">Get early access today</h2>
+              <p>It only takes a minute to sign up and our tree starter tier is<br>extremely generous. If vou have anv questions, our support team<br>would be happy to help you.</p>
+            </div>
+          </td>
+          <td>
+            <div>
+              <p>example@example.com</p>
+              <p>Get Started For Free</p>
+            </div>
+          </td>
+        </tr>
+      </table>
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
-
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
-
-  See how Fylo works
-
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
-
-  Kyle Burton
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    </div>
+  </body>
 </html>
