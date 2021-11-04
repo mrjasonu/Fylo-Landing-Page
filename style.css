@@ -1,3 +1,7 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
     margin: 15px;
 }
@@ -13,6 +17,7 @@ header {
     margin-right: 20px;
     position: relative;
     left: 80%;
+    font-size: 14px;
     bottom: 100px;
 }
 
@@ -24,7 +29,7 @@ header {
     width: 600px;
     height: 600px;
     position: relative;
-    left: 55%;
+    left: 40%;
 }
 
 #first-section #data-one {
@@ -32,7 +37,7 @@ header {
 }
 
 .paragraph p,  .paragraph h2 , .paragraph img{
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 #email-input {
@@ -49,13 +54,103 @@ header {
     background-color: rgb(8, 8, 210);
     color: white;
     font-weight: 900;
-    width: 200px;
+    width: 150px;
     text-align: center;
     position: relative;
-    bottom: 56px;
-    left: 450px;
+    bottom: 60px;
+    left: 530px;
 }
 
 .how-it-works {
     display: inline;
 }
+
+#arrow-text:hover {
+    font-style: italic;
+}
+
+#flow-work {
+    color: limegreen;
+}
+
+#arrow-icon {
+    position: relative;
+    right: 50px;
+}
+
+#quote-block {
+    border: 2px solid bisque;
+    border-radius: 5px;
+}
+
+#profile-photo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.profile-details {
+    display: inline;
+}
+
+#name {
+    position: relative;
+    bottom: 30px;
+    right: 35px;
+    font-weight: bolder;
+}
+
+#position {
+    position: relative;
+    right: 183px;
+    bottom: 10px;
+    font-style: italic;
+    color: #a9b3ce;
+}
+
+#quote-block {
+    color: rgb(5, 5, 85);
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 450px;
+}
+
+#right-side {
+    position: relative;
+    left: 40%;
+}
+
+#third-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #a9b3ce;
+    color: white;
+    border-radius: 20px;
+}
+
+#right-side #input-email {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: #B2BEB5;
+    width: 350px;
+}
+
+#right-side #start-for-free{
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: 1px solid rgb(8, 8, 210);;
+    border-radius: 5px;
+    background-color: rgb(8, 8, 210);
+    color: white;
+    font-weight: 900;
+    width: 200px;
+    text-align: center;
+    font-weight: 400;
+}
+

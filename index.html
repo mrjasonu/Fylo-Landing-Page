@@ -4,6 +4,9 @@
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
     <link rel="stylesheet" href="./style.css" >
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -38,11 +41,17 @@
           <td class="paragraph">
             <h2>Stay productive, wherever you are</h2>
             <p>Never let location be an issue when accessing vour files. Flo has Vou<br>covered for all of your file storage needs.<br><br>Securely share files and folders with friends, family and colleagues for<br>live collaboration. No email attachments required!</p>
-            <p class="how-it-works" id="flow-work">See how your Fylo works</p>
-            <img class="how-it-works" src="./images/icon-arrow.svg" />
+            <div id="arrow-text">
+              <p class="how-it-works" id="flow-work">See how your Fylo works </p>
+              <img id="arrow-icon" class="how-it-works" src="./images/icon-arrow.svg" />
+            </div>
             <div id="quote-block">
-              <imgid="quote-image" src="./images/icon-quotes.svg" />
+              <br>
+              <img id="quote-image" src="./images/icon-quotes.svg" />
               <p>Flo has improved our team productivity by<br>an order of magnitude. Since making the<br>switch out team has become a well-oiled<br>collaboration machine.</p>
+              <img class="profile-details" id="profile-photo" src="./images/avatar-testimonial.jpg" />
+              <p class="profile-details" id="name">Kyle Burton</p>
+              <p class="profile-details" id="position">Founder & CEO, Huddie</p>
             </div>
           </td>
           <td>
@@ -55,16 +64,16 @@
     <div id="third-section">
       <table>
         <tr>
-          <td class="paragraph">
+          <td class="paragraph" id="left-side">
             <div>
               <h2 class="white-text">Get early access today</h2>
               <p>It only takes a minute to sign up and our tree starter tier is<br>extremely generous. If vou have anv questions, our support team<br>would be happy to help you.</p>
             </div>
           </td>
-          <td>
+          <td class="paragraph" id="right-side">
             <div>
-              <p>example@example.com</p>
-              <p>Get Started For Free</p>
+              <p id="input-email">example@example.com</p>
+              <p id="start-for-free">Get Started For Free</p>
             </div>
           </td>
         </tr>
